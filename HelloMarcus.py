@@ -1,4 +1,4 @@
 def printHello():
-    print("Hello World")
+    print("Lyckad Merge kanske hallå")
 
 printHello()
