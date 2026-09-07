@@ -9,7 +9,7 @@ COPY pyproject.toml .
 COPY src/ src/
 
 # Installera Flask inuti containern
-RUN pip install flask
+RUN pip install .
 
 # Tala om att containern kommer att använda port 5000
 EXPOSE 5000
